@@ -21,9 +21,10 @@ lang() """
 def spaces():
     x = input("Put yesterday's parking spaces here")
     y = input("Put today's parking spaces here")
+    c = "C"
     z = 0
     for parking in x:
-        if x == y and parking == "C":
+        if x == "C" and parking == "C":
             z = z + 1
     print (z)
     print (f"There are {z} parking spaces.")
