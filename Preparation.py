@@ -37,3 +37,7 @@ def occupied(n,y,t):
             both +=1
     return both
 print(occupied(5, "CCC..", "C.C.C"))
+
+
+def HONI():
+    
