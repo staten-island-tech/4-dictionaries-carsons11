@@ -18,7 +18,7 @@ language("Cadee's computer never seems to work in the morning") """
 lang() """
 
 
-def spaces():
+""" def spaces():
     c = int(input("How many parking spaces are there?"))
     x = list(input("Put yesterday's parking spaces here"))
     y = list(input("Put today's parking spaces here"))
@@ -27,4 +27,13 @@ def spaces():
         if x[i] == "C" and y[i] =="C":
             z = z + 1
     print (f"There are {z} parking spaces.")
-spaces()
+spaces() """
+
+
+def occupied(n,y,t):
+    both = 0
+    for i in range(n):
+        if (y[i] == "C" and t[i] == "C"):
+            both +=1
+    return both
+print(occupied(5, "CCC..", "C.C.C"))
