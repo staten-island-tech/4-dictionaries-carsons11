@@ -39,5 +39,31 @@ def occupied(n,y,t):
 print(occupied(5, "CCC..", "C.C.C"))
 
 
-def HONI():
-    
+
+def password(x):
+    uppercase = 0
+    lowercase = 0
+    digits = 0
+    if len(x) >= 8 and len(x) <= 13:
+        for char in x:
+            if char.islower():
+                lower += 1 
+            elif char.isupper():
+                upper += 1 
+            elif char.isdigit():
+                digits += 1
+    if lowercase >= 3 and uppercase >= 2 and digits >= 1:
+        print ("Valid")
+    if x < 8 or x > 12:
+        print ("Invalid")
+password(44531)
+
+def wizard(o,n, duels):
+    owner = o
+    number_of_owners = 1
+    for i in duels:
+        if duels[1] == owner:
+            owner = duels[0]
+            number_of_owners += 1
+    for i in range(n):
+        if duels[i][1] == owner
