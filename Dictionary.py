@@ -13,16 +13,28 @@ shopping = [
 }
 print (student['name']) """
 
-Amazon_website = {  
-    sports_section = {
-        "name" = "basketball",
-        "price" = 29.99
+thrift_shop = [
+    item1 = {
+        "name": "basketball",
+        "price": 29.99,
+        "category": "sports"
+    },
+    item2 = {
+        "name": "action_figure",
+        "price": 3.99,
+        "category": "toys"
+    },
+    item3 = {
+        "name": "phone_charger",
+        "price": 1.99,
+        "category": "accessory"
     }
-    Andy_chen_merchandise = {
-        "toy" = "action_figure",
-        "price" = 3.99
-    }
-}
-    
+]
+print ("Welcome to our shop. Here are the items that you can buy.")
+for a in thrift_shop:
+    print (thrift_shop) 
 
+
+
+    
 
