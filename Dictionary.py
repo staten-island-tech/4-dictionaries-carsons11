@@ -13,18 +13,15 @@ shopping = [
 }
 print (student['name']) """
 
-Amazon_website = {
+Amazon_website = {  
     sports_section = {
         "name" = "basketball",
-        "price" = 29.99,
-        ""
-
-
-
-
-
+        "price" = 29.99
     }
-
+    Andy_chen_merchandise = {
+        "toy" = "action_figure",
+        "price" = 3.99
+    }
 }
     
 
