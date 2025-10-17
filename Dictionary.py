@@ -14,28 +14,27 @@ shopping = [
 print (student['name']) """
 
 thrift_shop = [
-    item1: {
-        "name": "basketball",
+    {
+        "name": "Basketball",
         "price": 29.99,
-        "category": "sports"
+        "category": "sports",
     },
-    item2: {
-        "name": "action_figure",
+    {
+        "name": "Action_figure",
         "price": 3.99,
-        "category": "toys"
+        "category": "toys",
     },
-    item3: {
-        "name": "phone_charger",
+    {
+        "name": "Phone_charger",
         "price": 1.99,
-        "category": "accessory"
+        "category": "accessory",
     }
 ]
 print ("Welcome to our shop. Here are the items that you can buy.")
-print (thrift_shop[0]{'name'})
+print (thrift_shop[2]["name"])
 
 
-for a in thrift_shop:
-    print (thrift_shop)
+
 
 
 
