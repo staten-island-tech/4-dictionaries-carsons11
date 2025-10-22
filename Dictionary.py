@@ -47,7 +47,9 @@ while a == "Yes":
 if c == "Yes":
     a == "Yes"
 elif c == "No":
-    a == "No"
+    print (f"This is ")
+
+    
 
 
 
