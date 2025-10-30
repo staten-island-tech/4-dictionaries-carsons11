@@ -45,21 +45,3 @@ while a != "No":
     a = input("Would you like to buy anything? Yes or No: ")
 print(f"This is your price: {sum(price_cart)} and your cart: {(cart)}")
 
-    
-
-        
-
-
-    
-
-
-
-
-
-
-
-
-
-
-    
-
