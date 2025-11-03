@@ -35,13 +35,13 @@ for i in Thrift_shop:
     print (Thrift_shop[i]['name'])
 a = ""
 cart = []
-price_cart = []
+price_cart = 0
 while a != "No":
     if a == "Yes":
         b = input("What would you like to buy?")
         cart.append(b)
-        price_cart.append(Thrift_shop[b]["price"])
-        print (f"This is your total: {sum(price_cart)}")
+        price_cart+=(Thrift_shop[b]["price"])
+        print (f"This is your total: {(price_cart)}")
     a = input("Would you like to buy anything? Yes or No: ")
 print(f"This is your price: {sum(price_cart)} and your cart: {(cart)}")
 
