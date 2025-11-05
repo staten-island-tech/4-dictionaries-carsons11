@@ -39,6 +39,9 @@ price_cart = 0
 while a != "No":
     if a == "Yes":
         b = input("What would you like to buy?")
+        for i in Thrift_shop:
+            if b != (Thrift_shop[b]['name']):
+                print ("Invalid")
         cart.append(b)
         price_cart+=(Thrift_shop[b]["price"])
         print (f"This is your total: {(price_cart)}")
